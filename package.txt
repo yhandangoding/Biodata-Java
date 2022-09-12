@@ -1,0 +1,52 @@
+package com.handayani;
+
+public class Biodata {
+
+  public static void main(String[] args) {
+   
+   String nama, nim, prodi, alamat;
+   char golongan_darah;
+   int usia;
+   long jumlah_saudara;
+   byte semester;
+   double tinggi;
+   short berat;
+   boolean belum_menikah;
+   float ukt;
+  
+  
+   nama = "Handayani";
+   nim = "D0221366";
+   prodi = "Informatika";
+   alamat = "Pambutungan";
+   golongan_darah = 'A';
+   usia = 19;
+   jumlah_saudara = 2;
+   semester = 3;
+   tinggi = 145;
+   berat = 40;
+   belum_menikah = true;
+   ukt = 1.5f;
+   
+   
+   
+   System.out.println("Nama : " + nama);
+   System.out.println("Nim : " + nim);
+   System.out.println("Prodi : " + prodi);
+   System.out.println("Alamat : " + alamat);
+   System.out.println("Golongan Darah : " + golongan_darah);
+   System.out.println("Usia : " + usia  + " Tahun");
+   System.out.println("Jumlah Saudara Kandung : " + jumlah_saudara);
+   System.out.println("Semester : " + semester);
+   System.out.println("Tinggi Badan: " + tinggi + " Cm");
+   System.out.println("Berat Badan : " + berat + " Kg");
+   System.out.println("Belum Menikah : " + belum_menikah);
+   System.out.println("Ukt : " + ukt + "Jt");
+ 
+   
+   
+   
+   //
+   
+  }
+}
